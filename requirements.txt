@@ -1,0 +1,23 @@
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9
+pydantic==2.7.1
+httpx==0.27.0
+
+# Audio/Video Processing
+ffmpeg-python==0.2.0
+
+# Speech & AI (heavy - comment out for local dev)
+# TTS==0.22.0               # XTTS2
+# faster-whisper==1.0.1     # Transcripción
+# demucs==4.0.1             # Separación de voz
+# torch>=2.1.0              # PyTorch (CPU/CUDA)
+# torchaudio>=2.1.0
+
+# Translation
+# deepl==1.18.0             # DeepL API
+# openai==1.30.0            # GPT-4 para traducción contextual
+
+# Utils
+aiofiles==23.2.1
+python-dotenv==1.0.1
