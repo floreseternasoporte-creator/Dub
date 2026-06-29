@@ -1,0 +1,2 @@
+# Instalar en tu máquina local para desplegar el worker
+modal==0.64.0
